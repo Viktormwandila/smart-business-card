@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    padding: 20px 0 52px 0;
+}
+.container { 
+   
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+.card {
+    display: flex;
+    height: 100%;
+    border: solid 1px rgb(197, 195, 195);
+    background-color: #eed;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+}
+.card_logo{
+    float: left;
+    margin: 5%;
+}
+.card_details{
+    float: right;
+    margin: 5%;
+    align-content: center;
+}
+.container .card img {
+    width: 35%;
+}
+
+/* login screen design */
+.app-container {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo-login {
+    text-align: center;
+    padding-top: 10vh;
+    margin-bottom: 50px;
+}
+.logo-login img {
+    max-width: 150px;
+}
+.login-form input {
+    padding: 15px;
+    border: 1px solid #f1f1f1;
+    margin: 5px 0;
+    width: 100%;
+}
+.login-btn {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.email-login {
+    background: #333;
+    color :#fff;
+}
+.email-login:hover {
+    background: #222;
+    transition: all .5s;
+}
+.orDesign {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+.orDesign span {
+    text-transform: uppercase;
+    color: #888;
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+}
+.orDesign span:after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    position: absolute;
+    left: 0;
+    margin-top: 7px;
+    z-index: -1;
+}
+
+.gmail-login {
+    background: #DB4437;
+    color :#fff;
+}
+.gmail-login:hover {
+    background: #b3271b;
+    transition: all .5s;
+}
+
+.facebook-login {
+    background: #3b5998;
+    color :#fff;
+}
+.facebook-login:hover {
+    background: #214184;
+    transition: all .5s;
+}
